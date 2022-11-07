@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recap ciclo for</title>
+    <link rel="stylesheet" href="./template/style.css">
+
+    <script type="text/javascript">
+
+      // conta quante volte il numero 2 è presente in un array
+
+      const mieiNumeri = [0, 2, 4, 1, 2, 3, 6, 8, 2];
+
+      console.log('miei numeri', mieiNumeri);
+
+      // init di una variabile (conta) che conta quante volte abbiamo trovato il numero 2
+      let conta = 0;
+
+      for(let i = 0; i < mieiNumeri.length; i++) {
+
+        // per ogni elemento presente nell'array
+
+        //    verifichiamo se l'elemento che stiamo esaminando è il 2 o meno
+
+        console.log('indice', i);
+        console.log('mieiNumeri[i]', mieiNumeri[i]);
+
+        //if (i === 2)
+        if (mieiNumeri[i] === 2) {
+
+            // incrementiamo il contatore se è presente il contatore
+            conta++;
+        }
+        
+      }
+
+      //console.log('il numero 2 è presente : ' + conta);
+      //console.log(`Il numero 2 è presente ${conta} volte nel mio array`);
+
+      // il mio nome è "simone"
+      console.log("il mio nome è \"simone\"");
+
+      // il mio nome è 'simone'
+      console.log('il mio nome è \'simone\'');    
+
+      console.log('il mio nome è "simone"');
+
+    </script>
+
+  </head>
+  <body>
+
+    <div class="menu bg-light p-1 text-left">
+        <h2>Recap ciclo for e array</h2>
+    </div>
+    <div class="container py-2 text-center">
+        <p>Contiamo quante volte il numero 2 è presente in un array</p>
+    </div>
+
+    <div class="logo-recap">
+        <span class="brackets">
+            [
+        </span> 
+        <span class="text">
+            Recap
+        </span>
+        <span class="brackets">
+            ]
+        </span>
+    </div>
+
+  </body>
+</html>
